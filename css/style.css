@@ -18,14 +18,17 @@
 
 body {
   text-align: center;
-  margin-top: 10%;
+  padding-top: 10%;
 }
 
 i {
   position: absolute;
   right: 50%;
   top: 90%;
-  display: none;
+}
+
+section {
+  padding: 20px;
 }
 
 .products {
@@ -44,4 +47,13 @@ i {
   top: 0;
   right: 0;
   width: 40px;
+}
+
+.cuore {
+  display: none;
+  color: red;
+}
+
+.product:hover > .cuore {
+  display: block;
 }
