@@ -4,7 +4,8 @@
   padding: 0;
 }
 
-/* Selettori */
+/* classi utility */
+
 .bg-green {
   background: green;
 }
@@ -13,14 +14,21 @@
   background: red;
 }
 
+/* /classi utility */
+
 body {
   text-align: center;
   margin-top: 10%;
 }
 
+i {
+  position: absolute;
+  right: 50%;
+  top: 90%;
+  display: none;
+}
 
 .products {
-  position: relative;
   margin: 0;
 }
 
